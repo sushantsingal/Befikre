@@ -578,3 +578,21 @@ cursor: pointer;
 background-color: #CCC;
 }
 
+#scroll-up{
+  display: none;
+  position: fixed;
+  size: 10px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #222;
+  color: #ECECEC;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+#scroll-up:hover{
+  background-color: #565656;
+}
